@@ -9,8 +9,6 @@ namespace KeyboardSimulator
         {
             InitializeComponent();
 
-            tbHello.Text = "Hello";
-
 
         }
 
