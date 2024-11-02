@@ -5,64 +5,45 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KeyboardSimulator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="500">
+        Title="MainWindow" Height="250" Width="400">
     <Grid>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="400" Background="#AAFFFFFF" Margin="5">
 
             <!-- Título de la Aplicación -->
             <TextBlock Text="Mechanical keyboard simualtor" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Foreground="DarkSlateGray" />
 
-            <!-- Botón Encender/Apagar -->
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 10 0 0">
-                <TextBlock Text="Status:" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,10,0"/>
-                <ToggleButton x:Name="PowerToggleButton" Content="Apagado" Width="80" Height="30"/>
-                <!--Checked="PowerToggleButton_Checked" Unchecked="PowerToggleButton_Unchecked"/>-->
-            </StackPanel>
-
             <!-- Selección de Sonidos -->
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 10 0 0">
                 <TextBlock Text="Sound:" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,10,0"/>
-                <ComboBox x:Name="SoundComboBox" Width="150">
-                    <ComboBoxItem Content="Cherry MX Red"/>
-                    <ComboBoxItem Content="Cherry MX Blue"/>
-                    <ComboBoxItem Content="Cherry MX Brown"/>
-                    <ComboBoxItem Content="Razer Green"/>
+                <ComboBox x:Name="SoundComboBox" Width="150" SelectionChanged="SoundComboBox_SelectionChanged" SelectedIndex="0">
+                    <ComboBoxItem Content="Alpaca"/>
+                    <ComboBoxItem Content="Blackink"/>
+                    <ComboBoxItem Content="Bluealps"/>
+                    <ComboBoxItem Content="Boxnavy"/>
+                    <ComboBoxItem Content="Buckling"/>
+                    <ComboBoxItem Content="Cream"/>
+                    <ComboBoxItem Content="Holypanda"/>
+                    <ComboBoxItem Content="Mxblack"/>
+                    <ComboBoxItem Content="Mxbrown"/>
+                    <ComboBoxItem Content="Redink"/>
+                    <ComboBoxItem Content="Topre"/>
+                    <ComboBoxItem Content="Turquoise"/>
                 </ComboBox>
             </StackPanel>
 
             <!-- Control de Volumen -->
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 10 0 0">
                 <TextBlock Text="Volume:" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,10,0"/>
-                <Slider x:Name="VolumeSlider" Width="150" Minimum="0" Maximum="100" Value="50" TickFrequency="10" IsSnapToTickEnabled="True"/>
+                <Slider x:Name="VolumeSlider" Width="150" Minimum="0" Maximum="100" Value="50" TickFrequency="10" IsSnapToTickEnabled="True" ValueChanged="VolumeSlider_ValueChanged"/>
                 <TextBlock x:Name="VolumeLabel" Text="{Binding ElementName=VolumeSlider, Path=Value}" VerticalAlignment="Center" Margin="10,0,0,0"/>
             </StackPanel>
 
-            <!-- Opciones de Configuración Avanzada -->
-            <Expander Header="Advanced settings" IsExpanded="False" Margin="0,10,0,0" HorizontalAlignment="Center">
-                <StackPanel>
-                    <!-- Ajuste de Retraso -->
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Retraso entre Teclas:" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,10,0"/>
-                        <Slider x:Name="KeyDelaySlider" Width="150" Minimum="0" Maximum="500" Value="100" TickFrequency="50" IsSnapToTickEnabled="True"/>
-                        <TextBlock x:Name="KeyDelayLabel" Text="{Binding ElementName=KeyDelaySlider, Path=Value}" VerticalAlignment="Center" Margin="10,0,0,0"/>
-                    </StackPanel>
+            <!-- Mute Option -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 10 0 0">
+                <TextBlock Text="Mute:" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                <CheckBox x:Name="MuteCheckBox" Checked="MuteCheckBox_Checked" Unchecked="MuteCheckBox_Unchecked"/>
+            </StackPanel>
 
-                    <!-- Efecto de Eco -->
-                    <CheckBox x:Name="EchoEffectCheckBox" Content="Enable echo effect" Margin="0,10,0,0"/>
-
-                    <!-- Selector de Tema -->
-                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
-                        <TextBlock Text="Theme:" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,10,0"/>
-                        <ComboBox x:Name="ThemeComboBox" Width="150">
-                            <ComboBoxItem Content="Ligth"/>
-                            <ComboBoxItem Content="Dark"/>
-                        </ComboBox>
-                    </StackPanel>
-                </StackPanel>
-            </Expander>
-
-            <!-- Botón de Guardar Configuración -->
-            <Button Content="Save configuration" HorizontalAlignment="Center" Width="150" Height="30" Margin="0,20,0,0"/>
 
         </StackPanel>
     </Grid>
