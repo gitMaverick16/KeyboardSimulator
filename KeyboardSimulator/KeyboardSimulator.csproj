@@ -9,10 +9,318 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Assets\Audio\Alpaca\" />
-	  <Content Include="Assets\Audio\Alpaca\ENTER.mp3">
-		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </Content>
+    <!--<Folder Include="Assets\Audio\Alpaca\" />-->
+	<Content Include="Assets\Audio\Alpaca\Press\BACKSPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Alpaca\Press\ENTER.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Alpaca\Press\GENERIC.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Alpaca\Press\SPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+
+	<Content Include="Assets\Audio\Alpaca\Up\BACKSPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Alpaca\Up\ENTER.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Alpaca\Up\GENERIC.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Alpaca\Up\SPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+
+	<Content Include="Assets\Audio\Blackink\Press\BACKSPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Blackink\Press\ENTER.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Blackink\Press\GENERIC.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Blackink\Press\SPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+
+	<Content Include="Assets\Audio\Blackink\Up\BACKSPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Blackink\Up\ENTER.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Blackink\Up\GENERIC.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Blackink\Up\SPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+
+	<Content Include="Assets\Audio\Bluealps\Press\BACKSPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Bluealps\Press\ENTER.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Bluealps\Press\GENERIC.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Bluealps\Press\SPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+
+	<Content Include="Assets\Audio\Bluealps\Up\BACKSPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Bluealps\Up\ENTER.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Bluealps\Up\GENERIC.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Bluealps\Up\SPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+
+	<Content Include="Assets\Audio\Boxnavy\Press\BACKSPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Boxnavy\Press\ENTER.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Boxnavy\Press\GENERIC.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Boxnavy\Press\SPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+
+	<Content Include="Assets\Audio\Boxnavy\Up\BACKSPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Boxnavy\Up\ENTER.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Boxnavy\Up\GENERIC.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Boxnavy\Up\SPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+
+	<Content Include="Assets\Audio\Buckling\Press\BACKSPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Buckling\Press\ENTER.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Buckling\Press\GENERIC.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Buckling\Press\SPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+
+	<Content Include="Assets\Audio\Buckling\Up\BACKSPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Buckling\Up\ENTER.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Buckling\Up\GENERIC.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Buckling\Up\SPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+
+	<Content Include="Assets\Audio\Cream\Press\BACKSPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Cream\Press\ENTER.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Cream\Press\GENERIC.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Cream\Press\SPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+
+	<Content Include="Assets\Audio\Cream\Up\BACKSPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Cream\Up\ENTER.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Cream\Up\GENERIC.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Cream\Up\SPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+
+	<Content Include="Assets\Audio\Holypanda\Press\BACKSPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Holypanda\Press\ENTER.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Holypanda\Press\GENERIC.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Holypanda\Press\SPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+
+	<Content Include="Assets\Audio\Holypanda\Up\BACKSPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Holypanda\Up\ENTER.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Holypanda\Up\GENERIC.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Holypanda\Up\SPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+
+	<Content Include="Assets\Audio\Mxblack\Press\BACKSPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Mxblack\Press\ENTER.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Mxblack\Press\GENERIC.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Mxblack\Press\SPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+
+	<Content Include="Assets\Audio\Mxblack\Up\BACKSPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Mxblack\Up\ENTER.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Mxblack\Up\GENERIC.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Mxblack\Up\SPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+
+	<Content Include="Assets\Audio\Mxbrown\Press\BACKSPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Mxbrown\Press\ENTER.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Mxbrown\Press\GENERIC.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Mxbrown\Press\SPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+
+	<Content Include="Assets\Audio\Mxbrown\Up\BACKSPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Mxbrown\Up\ENTER.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Mxbrown\Up\GENERIC.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Mxbrown\Up\SPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+
+	<Content Include="Assets\Audio\Redink\Press\BACKSPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Redink\Press\ENTER.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Redink\Press\GENERIC.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Redink\Press\SPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+
+	<Content Include="Assets\Audio\Redink\Up\BACKSPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Redink\Up\ENTER.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Redink\Up\GENERIC.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Redink\Up\SPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+
+	<Content Include="Assets\Audio\Topre\Press\BACKSPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Topre\Press\ENTER.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Topre\Press\GENERIC.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Topre\Press\SPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+
+	<Content Include="Assets\Audio\Topre\Up\BACKSPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Topre\Up\ENTER.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Topre\Up\GENERIC.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Topre\Up\SPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+
+	<Content Include="Assets\Audio\Turquoise\Press\BACKSPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Turquoise\Press\ENTER.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Turquoise\Press\GENERIC.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Turquoise\Press\SPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+
+	<Content Include="Assets\Audio\Turquoise\Up\BACKSPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Turquoise\Up\ENTER.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Turquoise\Up\GENERIC.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="Assets\Audio\Turquoise\Up\SPACE.mp3">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
   </ItemGroup>
 
 </Project>

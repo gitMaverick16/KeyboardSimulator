@@ -1,4 +1,5 @@
-﻿using System.Media;
+﻿using System.IO;
+using System.Media;
 using System.Runtime.InteropServices;
 using System.Windows;
 using System.Windows.Media;
@@ -63,8 +64,8 @@ namespace KeyboardSimulator
             {
                 // Crear una nueva instancia de MediaPlayer en cada pulsación de tecla
                 MediaPlayer mediaPlayer = new MediaPlayer();
-                mediaPlayer.Open(new Uri(@"C:/Users/usuario/Documents/Projects/KeyboardSimulator/KeyboardSimulator/Assets/Audio/Alpaca/ENTER.mp3"));
-                    mediaPlayer.Volume = 1; // Ajuste de volumen
+                mediaPlayer.Open(new Uri(Directory.GetCurrentDirectory() + @"/Assets/Audio/press/Alpaca/ENTER.mp3"));
+                mediaPlayer.Volume = 1; // Ajuste de volumen
                 mediaPlayer.Play();
 
                 // Liberar el recurso cuando termine de reproducir el sonido
