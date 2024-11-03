@@ -19,7 +19,7 @@
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="400" Background="#AAFFFFFF" Margin="5">
 
             <!-- Título de la Aplicación -->
-            <TextBlock Text="Mechanical keyboard simualator" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Foreground="DarkSlateGray" />
+            <TextBlock Text="Mechanical keyboard simulator" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Foreground="DarkSlateGray" />
 
             <!-- Selección de Sonidos -->
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 10 0 0">
@@ -52,8 +52,7 @@
                 <TextBlock Text="Mute:" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,10,0"/>
                 <CheckBox x:Name="MuteCheckBox" Checked="MuteCheckBox_Checked" Unchecked="MuteCheckBox_Unchecked"/>
             </StackPanel>
-
-
         </StackPanel>
+
     </Grid>
 </Window>

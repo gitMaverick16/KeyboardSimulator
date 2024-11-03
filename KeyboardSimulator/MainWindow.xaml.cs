@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using NAudio.Wave;
+using System.IO;
 using System.Media;
 using System.Runtime.InteropServices;
 using System.Windows;
@@ -34,7 +35,7 @@ namespace KeyboardSimulator
         private static IntPtr _hookID = IntPtr.Zero;
 
         private static string StyleSound = "Alpaca";
-        private static double Volume = 50;
+        private static float Volume = 50;
         private static bool IsMuted = false;
 
         private static string EnterPressSoundPath = "/Assets/Audio/Style/Press/ENTER.mp3";
@@ -84,6 +85,7 @@ namespace KeyboardSimulator
 
                 if (wParam == (IntPtr)WM_KEYDOWN)
                 {
+                    Console.WriteLine("key press");
                     if (!_pressedKeys.Contains(vkCode))
                     {
                         _pressedKeys.Add(vkCode);
@@ -98,6 +100,7 @@ namespace KeyboardSimulator
                 }
                 else if (wParam == (IntPtr)WM_KEYUP)
                 {
+                    Console.WriteLine("key release");
                     if (_pressedKeys.Contains(vkCode))
                     {
                         _pressedKeys.Remove(vkCode);
@@ -122,11 +125,20 @@ namespace KeyboardSimulator
 
         private static void PlaySound(string path)
         {
-            MediaPlayer mediaPlayer = new MediaPlayer();
-            mediaPlayer.Open(new Uri(Directory.GetCurrentDirectory() + path));
-            mediaPlayer.Volume = Volume / 100;
-            mediaPlayer.Play();
-            mediaPlayer.MediaEnded += (s, e) => mediaPlayer.Close();
+            var audioFile = new AudioFileReader(Directory.GetCurrentDirectory() + path)
+            {
+                Volume = Volume 
+            };
+            var outputDevice = new WaveOutEvent();
+
+            outputDevice.Init(audioFile);
+            outputDevice.Play();
+
+            outputDevice.PlaybackStopped += (sender, e) =>
+            {
+                outputDevice.Dispose();
+                audioFile.Dispose();
+            };
         }
 
         private void MuteCheckBox_Checked(object sender, RoutedEventArgs e)
