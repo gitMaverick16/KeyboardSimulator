@@ -6,22 +6,23 @@
         xmlns:local="clr-namespace:KeyboardSimulator"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Icon="Assets/Images/keyboard_icon.ico"
         Title="Mechanical Keyboard" Height="250" Width="400">
     <Grid>
         <Grid.Background>
             <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                 <GradientStop Color="#1f2bdb" Offset="0.0" />
-                <!-- Color inicial, púrpura oscuro -->
                 <GradientStop Color="#a6d3ed" Offset="1.0" />
-                <!-- Color final, púrpura claro -->
             </LinearGradientBrush>
         </Grid.Background>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="400" Background="#AAFFFFFF" Margin="5">
 
-            <!-- Título de la Aplicación -->
+            <!-- Application title -->
             <TextBlock Text="Mechanical keyboard simulator" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Foreground="DarkSlateGray" />
 
-            <!-- Selección de Sonidos -->
+            <!-- Select sound -->
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 10 0 0">
                 <TextBlock Text="Sound:" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,10,0"/>
                 <ComboBox x:Name="SoundComboBox" Width="150" SelectionChanged="SoundComboBox_SelectionChanged" SelectedIndex="0">
@@ -40,7 +41,7 @@
                 </ComboBox>
             </StackPanel>
 
-            <!-- Control de Volumen -->
+            <!-- Volume -->
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 10 0 0">
                 <TextBlock Text="Volume:" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,10,0"/>
                 <Slider x:Name="VolumeSlider" Width="150" Minimum="0" Maximum="100" Value="50" TickFrequency="10" IsSnapToTickEnabled="True" ValueChanged="VolumeSlider_ValueChanged"/>

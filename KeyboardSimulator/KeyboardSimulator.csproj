@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+	<Content Include="Assets\Images\keyboard_icon.ico">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+		  
 	<Content Include="Assets\Audio\Alpaca\Press\BACKSPACE.mp3">
 		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	</Content>
