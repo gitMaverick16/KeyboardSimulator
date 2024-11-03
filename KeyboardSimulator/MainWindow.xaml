@@ -4,13 +4,22 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KeyboardSimulator"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
-        Title="MainWindow" Height="250" Width="400">
+        Title="Mechanical Keyboard" Height="250" Width="400">
     <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#1f2bdb" Offset="0.0" />
+                <!-- Color inicial, púrpura oscuro -->
+                <GradientStop Color="#a6d3ed" Offset="1.0" />
+                <!-- Color final, púrpura claro -->
+            </LinearGradientBrush>
+        </Grid.Background>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="400" Background="#AAFFFFFF" Margin="5">
 
             <!-- Título de la Aplicación -->
-            <TextBlock Text="Mechanical keyboard simualtor" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Foreground="DarkSlateGray" />
+            <TextBlock Text="Mechanical keyboard simualator" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Foreground="DarkSlateGray" />
 
             <!-- Selección de Sonidos -->
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 10 0 0">
